@@ -9,7 +9,6 @@ import os.path
 from os import path
 from itertools import islice
 import sched, time
-#EEEEEEEEE
 #Get file name and which line to read - return the line string
 def read_line(file,line):	
 		with open(file) as fin:
